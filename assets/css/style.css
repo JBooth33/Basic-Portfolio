@@ -1,6 +1,6 @@
 header {
     margin-left: 20%;
-    
+    margin-right: 20%;
 }
 
 
@@ -19,10 +19,21 @@ header {
 .horizontal {
     text-align: center;
     background-color: white;
-    
+    margin-right: 0px;
 }
 
 li {
+    list-style: none;
+    float: right;
+    margin-top: 35px;
+}
+
+a.contact {
+    border: none;
+    padding-right: none;
+}
+
+a {
     height: 20px;
     padding-right: 20px;
     padding-left: 20px;
@@ -30,10 +41,7 @@ li {
     font-family: Arial;
     font-size: 14px;
     color: #777777;
-    list-style-type: none;
     text-decoration: none;
-    float: right;
-     
 }
 
 .container {
